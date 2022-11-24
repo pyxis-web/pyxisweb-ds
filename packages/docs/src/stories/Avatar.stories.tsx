@@ -16,4 +16,11 @@ export default {
     src: "https://github.com/ismaelguimaraes.png",
     alt: "Ismael Guimarães",
   },
+  argTypes: {
+    src: {
+      control: {
+        type: "text",
+      },
+    },
+  },
 } as Meta<AvatarProps>;

@@ -15,6 +15,15 @@ export default {
   component: Heading,
   args: {
     children: "Custom title",
+    size: "md",
+  },
+  argTypes: {
+    size: {
+      options: ["sm", "md", "lg", "xl", "2xl", "3xl", "4xl"],
+      control: {
+        type: "inline-radio",
+      },
+    },
   },
   parameters: {
     docs: {
