@@ -8,4 +8,4 @@
 - [x] Textarea
 - [x] Checkbox
 - [x] Avatar
-- [ ] MultiStep
+- [x] MultiStep
