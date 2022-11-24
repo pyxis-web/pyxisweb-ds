@@ -1,0 +1,4 @@
+{
+  "extends": "@pyxisweb/ts-config/react.json",
+  "include": ["src"]
+}
